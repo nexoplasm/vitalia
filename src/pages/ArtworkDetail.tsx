@@ -124,7 +124,11 @@ const ArtworkDetail = () => {
                 
                 <div>
                   <h3 className="text-xs uppercase text-white/50 mb-1">Created</h3>
-                  <p className="text-white/70">Created in 2025</p>
+                  <p className="text-white/70">{new Date(artwork.createdAt).toLocaleDateString('en-US', { 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric' 
+                  })}</p>
                 </div>
               </div>
               
