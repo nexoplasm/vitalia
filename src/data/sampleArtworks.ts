@@ -5,14 +5,14 @@ import { Artwork } from '@/lib/types';
 export const sampleArtworks: Artwork[] = [
   {
     id: '1',
-    title: 'Neural Dreamscape',
-    imageUrl: '/public/lovable-uploads/38473362-8d94-48a8-a9c7-a86bcc73aca3.png',
-    description: 'A mind-bending journey through neural networks, manifesting as a visual exploration of artificial consciousness.',
-    aiModel: 'Midjourney v5',
-    prompt: 'Surreal dreamscape with neural network patterns, highly detailed, cinematic lighting, 8k resolution',
-    style: 'surreal',
-    theme: 'conceptual',
-    createdAt: '2023-04-15',
+    title: 'Elegant Beauty in Timeless Focus',
+    imageUrl: 'https://ideogram.ai/assets/image/lossless/response/oiDvQKiqRZWEIBoJv89vyg',
+    description: 'Stunning black-and-white portrait of a poised young woman, her flowing hair and elegance captured with an 85mm lens against a soft backdrop.',
+    aiModel: 'IdeogramAi',
+    prompt: 'Elegant young woman, flowing hair, poised in a striking black-and-white 85mm portrait against a soft backdrop.',
+    style: 'Minimalist',
+    theme: 'Portrait',
+    createdAt: '2025-03-17',
     featured: true,
     grid: {
       colSpan: 2,
