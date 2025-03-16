@@ -15,6 +15,7 @@ interface ArtCardProps {
 export default function ArtCard({ artwork, variant = 'default', className }: ArtCardProps) {
   const [isLoaded, setIsLoaded] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+  const [imageError, setImageError] = useState(false);
 
   const shareArtwork = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -38,6 +39,14 @@ export default function ArtCard({ artwork, variant = 'default', className }: Art
     toast.success('Link copied to clipboard');
   };
 
+  const handleImageError = () => {
+    setImageError(true);
+    setIsLoaded(true);
+  };
+
+  // Use the first image as fallback or a default placeholder
+  const fallbackImage = '/public/lovable-uploads/68546518-702f-415d-ba35-856728254d7e.png';
+
   return (
     <Link 
       to={`/artwork/${artwork.id}`}
@@ -53,7 +62,7 @@ export default function ArtCard({ artwork, variant = 'default', className }: Art
       <div className="absolute inset-0 bg-black/20 z-10 transition-opacity duration-300 opacity-0 group-hover:opacity-100" />
       
       <img
-        src={artwork.imageUrl}
+        src={imageError ? fallbackImage : artwork.imageUrl}
         alt={artwork.title}
         className={cn(
           'object-cover w-full h-full transition-all duration-700',
@@ -61,6 +70,7 @@ export default function ArtCard({ artwork, variant = 'default', className }: Art
           isHovered && 'scale-105'
         )}
         onLoad={() => setIsLoaded(true)}
+        onError={handleImageError}
       />
       
       {variant !== 'minimal' && (
