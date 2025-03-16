@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="w-full border-t border-white/5 bg-black py-6 px-6 lg:px-12">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between mb-6">
-          <h3 className="text-lg font-display mb-4 md:mb-0">ARTCURATORIUM</h3>
+          <h3 className="text-lg font-display mb-4 md:mb-0">VITALIA</h3>
           
           <div className="flex space-x-8">
             <Link to="/" className="text-sm text-white/60 hover:text-white">Home</Link>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
         
         <div className="text-center md:text-left text-xs text-white/40">
-          © {currentYear} ArtCuratorium
+          © {currentYear} Vitalia
         </div>
       </div>
     </footer>

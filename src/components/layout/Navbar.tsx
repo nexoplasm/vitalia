@@ -43,7 +43,7 @@ export default function Navbar() {
           to="/" 
           className="text-xl md:text-2xl font-display tracking-wider font-light"
         >
-          ARTCURATORIUM
+          VITALIA
         </Link>
 
         {/* Desktop Navigation */}

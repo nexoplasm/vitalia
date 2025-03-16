@@ -8,11 +8,11 @@ export default function About() {
       <Navbar />
       <main className="pt-32 pb-24 px-6 lg:px-12">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-display font-light mb-8">About ArtCuratorium</h1>
+          <h1 className="text-4xl md:text-5xl font-display font-light mb-8">About Vitalia</h1>
           
           <div className="prose prose-invert max-w-none">
             <p className="text-xl text-white/70 mb-8">
-              ArtCuratorium is dedicated to showcasing the finest AI-generated artwork from across the digital landscape, 
+              Vitalia is dedicated to showcasing the finest AI-generated artwork from across the digital landscape, 
               exploring the intersection of technology and creativity.
             </p>
             
@@ -33,7 +33,7 @@ export default function About() {
             <h2 className="text-2xl font-display font-light mt-12 mb-4">The Future of AI Art</h2>
             <p className="text-white/70 mb-4">
               As AI technology continues to evolve, so too will the artistic possibilities it enables. 
-              ArtCuratorium is committed to remaining at the forefront of this evolution, providing a 
+              Vitalia is committed to remaining at the forefront of this evolution, providing a 
               platform for the most innovative and thought-provoking works in the field.
             </p>
           </div>

@@ -14,11 +14,11 @@ export default function Hero({ featuredArtwork, thumbnails }: HeroProps) {
     <section className="relative min-h-screen flex flex-col justify-center px-6 lg:px-12 pt-24 pb-12">
       <div className="max-w-7xl mx-auto w-full">
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-display font-light leading-tight mb-8 max-w-4xl animate-fade-in">
-          AI-Generated <span className="text-white/90">Art</span>
+          AI's Artistic <span className="text-white/90">Vision</span>
         </h1>
         
         <p className="text-lg text-white/70 max-w-xl mb-10 animate-fade-in">
-          Curated collection of AI-generated artworks that challenge our perception of creativity.
+          Discover the intersection of AI and art at Vitalia, featuring a curated collection of AI-generated artworks that inspire and innovate.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 mb-16 animate-fade-in">
