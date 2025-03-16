@@ -28,7 +28,7 @@ const Index = () => {
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="flex flex-col items-center">
           <div className="text-4xl font-display font-light mb-4 animate-pulse-subtle">
-            ARTCURATORIUM
+            VITALIA
           </div>
           <div className="w-8 h-8 border-t-2 border-white rounded-full animate-spin" />
         </div>
